@@ -1,0 +1,14 @@
+yarn run v1.22.10
+$ vue-cli-service serve
+ INFO  Starting development server...
+ DONE  Compiled successfully in 14263ms08:29:00
+
+
+  App running at:
+  - Local:   http://localhost:8081/ 
+  - Network: http://10.221.42.199:8081/
+
+  Note that the development build is not optimized.
+  To create a production build, run yarn build.
+
+Terminate batch job (Y/N)? 

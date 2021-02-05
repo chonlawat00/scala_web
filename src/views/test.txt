@@ -1,0 +1,68 @@
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <section>
+      <div class="row">
+        <br />
+        <div class="column1">
+          <div class="center1">
+            <h4>Search</h4>
+            <input
+              type="text"
+              id="myInput"
+              onkeyup="myFunction()"
+              placeholder="Search field names"
+              title="Type in a name"
+            />
+            <h4>Filter by type</h4>
+            <ul>
+              <li>
+                <router-link to="/data"
+                  ><button class="btn_filter default">FFF</button></router-link
+                >
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        </div>
+
+        <div class="column2">
+          <div class="center2">
+            <h4>_Source</h4>
+            <hr />
+
+            <div class="area">
+              <button class="btn"><i class="fa fa-bars"></i></button>
+              <p class="p">
+                {{ json_text }}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas sit amet pretium urna. Vivamus venenatis velit nec
+                neque ultricies, eget elementum magna tristique. Quisque
+                vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
+                eget luctus quam orci in velit. Praesent scelerisque tortor sed
+                accumsan convallis.
+              </p>
+            </div>
+            <br />
+            <div class="area">
+              <button class="btn"><i class="fa fa-bars"></i></button>
+              <p class="p">
+                {{ json_text }}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas sit amet pretium urna. Vivamus venenatis velit nec
+                neque ultricies, eget elementum magna tristique. Quisque
+                vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
+                eget luctus quam orci in velit. Praesent scelerisque tortor sed
+                accumsan convallis.
+              </p>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <span class="title">@chonlawat</span>
+  </div>
